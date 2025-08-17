@@ -1,1 +1,22 @@
 # OurPlace
+- Users place colored pixels on a world map in real-time, like w place
+- Start with 50 pixels, get 1 new pixel every 30 seconds, max capacity grows as you place more
+- See other people's pixels appear instantly as they work
+- Anyone can report bad content by drawing a rectangle around it
+- Content only goes to moderation review if multiple people flag the same area
+- Under-18 users can report but can't be moderators (honor system for 18+)
+- Moderators opt-in through a separate moderation tab
+- Moderators get assigned flagged content at fixed time intervals based on queue size
+- Some moderation entries are old known-bad content to catch bad moderators
+- Good moderation votes earn you extra pixels to place on the canvas
+- Lightweight AI runs in everyone's browser to auto-detect obvious bad content
+- Flagged areas that pass multiple human reviews get their creators banned
+- Users who repeatedly vote with tiny minorities (<10%) get flagged as bad moderators
+- Big countdown timer at the top - when it hits zero, the site shuts down
+- Only way to add time is buying pixels ($1 = +1 hour added to timer)
+- No other purchases, cosmetics, or premium features - just pixels
+- Creates community pressure to keep funding the site when timer gets low
+- Built in Rust for cheap server costs even with millions of users
+- Tile-based storage system like Google Maps for efficient pixel loading
+- WebSocket connections for instant pixel updates
+- Estimated $30k/month server costs at 1M daily users
