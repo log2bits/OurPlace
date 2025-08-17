@@ -19,4 +19,3 @@
 - Built in Rust for cheap server costs even with millions of users
 - Tile-based storage system like Google Maps for efficient pixel loading
 - WebSocket connections for instant pixel updates
-- Estimated $30k/month server costs at 1M daily users
