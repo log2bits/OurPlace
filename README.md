@@ -19,3 +19,5 @@
 - Built in Rust for cheap server costs even with millions of users
 - Tile-based storage system like Google Maps for efficient pixel loading
 - WebSocket connections for instant pixel updates
+- Uses AWS for automatic scaling in case it suddenly goes viral
+- Ideally the money made from microstransactions goes directly back into funding the servers to keep them up
